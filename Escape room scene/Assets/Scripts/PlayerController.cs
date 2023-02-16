@@ -10,14 +10,14 @@ public class PlayerController : MonoBehaviour
     bool _openTheDoor;
     public TextMeshProUGUI textCounter;
     public GameObject endGame;
-    public GameObject info;
+  //  public GameObject info;
     public GameObject warningUI;
     private void Start()
     {
         escapeObstacleCount = 0;
         _openTheDoor = false;
         endGame.gameObject.SetActive(false);
-        info.gameObject.SetActive(true);
+       // info.gameObject.SetActive(true);
         warningUI.gameObject.SetActive(false);
     }
 
@@ -29,10 +29,10 @@ public class PlayerController : MonoBehaviour
             DoorOpen();
         }
 
-        if (Input.GetKeyUp(KeyCode.Tab))
+       /* if (Input.GetKeyUp(KeyCode.Tab))
         {
             info.gameObject.SetActive(!info.gameObject.activeSelf);
-        }
+        }*/
     }
 
     private void OnCollisionEnter(Collision collision)
