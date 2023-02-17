@@ -1,0 +1,540 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676516049010928, "dur": 2221722, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516049011236, "dur": 11368, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516049022608, "dur": 80114, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516049102724, "dur": 263279, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516049366005, "dur": 1853150, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516051219157, "dur": 13492, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516051233014, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676516049222222, "dur": 119340, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049223834, "dur": 46385, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049322854, "dur": 5109, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049327968, "dur": 13583, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049328864, "dur": 11768, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049346941, "dur": 1801, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676516049345947, "dur": 2890, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516051233095, "dur": 165, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676516049410838, "dur":1115, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516049411984, "dur":85, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676516049412108, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676516049412133, "dur":492, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676516049412685, "dur":1023, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516049413708, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196432, "dur":190, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196623, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196643, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196648, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196661, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196664, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196671, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196673, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196680, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196682, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196689, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196692, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196698, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196701, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196708, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196710, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196717, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196741, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051196833, "dur":1301, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676516049413387, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049413791, "dur":4450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049418242, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676516049418389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049419973, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676516049423224, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676516049423456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049423465, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676516049424884, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676516049424938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049424944, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676516049426013, "dur":11467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049437498, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049437584, "dur":10700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049448346, "dur":51648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049500000, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049500057, "dur":138968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049639050, "dur":50131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049689189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049689796, "dur":9491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049699315, "dur":36304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049735631, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049735670, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049737276, "dur":30898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049768182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049768192, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049769279, "dur":57297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049826583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049826594, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049827961, "dur":34294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049862292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049862303, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049866890, "dur":29741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049896649, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049896663, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049898212, "dur":33673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049931893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049931903, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049934261, "dur":35425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516049969691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516049969698, "dur":60112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050029835, "dur":31200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050061042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050061052, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050063199, "dur":29797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050093005, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050093065, "dur":41788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050134877, "dur":72371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050207279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050207289, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050208175, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050209120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050209128, "dur":92519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050301678, "dur":59451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050361152, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050361163, "dur":71221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050432405, "dur":330344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050762756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050762767, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050764112, "dur":167161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050931280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050931290, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676516050933119, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676516050933228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050933451, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676516050934156, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1676516050934175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050934195, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1676516050935872, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050935893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050935901, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050940426, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050940447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050940455, "dur":14435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050954918, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676516050955038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050955051, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676516050956076, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050956095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050956102, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050958571, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050958592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050958599, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050959616, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050959637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050959644, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676516050960944, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676516050960964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050960974, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676516050962234, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050962253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050962260, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676516050963603, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676516050963623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050963630, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676516050964648, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676516050964762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676516050964770, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676516050965554, "dur":230879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049413090, "dur":674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049413767, "dur":4439, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049418223, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676516049418234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049419376, "dur":379, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676516049419759, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676516049419789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049420964, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676516049423199, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676516049423262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049423288, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676516049424770, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676516049424827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049424855, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676516049425820, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049426675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049427618, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049429449, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1676516049429541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049429804, "dur":8845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1676516049438745, "dur":41897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049480652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049480922, "dur":119528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049600469, "dur":72330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049672806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049672819, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049674070, "dur":34228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049708305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049708315, "dur":10055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049718395, "dur":55533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049773936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049773946, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049774952, "dur":58502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049833467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049833478, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049834697, "dur":42856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049877561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049877571, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049878835, "dur":30334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049909177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049909188, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049910210, "dur":38726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516049948941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516049948951, "dur":80939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050029927, "dur":77155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050107089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050107099, "dur":28197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050135380, "dur":37461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050172849, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050172866, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050174149, "dur":57086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050231251, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050231283, "dur":70894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050302205, "dur":33228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050335441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050335452, "dur":96138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050431612, "dur":56097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050487715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050487725, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050488920, "dur":241735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050730664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050730676, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050731899, "dur":155038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050886977, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516050886989, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516050889085, "dur":239989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516051129094, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676516051129125, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676516051130218, "dur":66229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049413217, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049413774, "dur":4450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049418230, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676516049418325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049420111, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676516049423588, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676516049423636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049424721, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676516049425766, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676516049425832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049425842, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676516049429264, "dur":134253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676516049563521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049563528, "dur":46869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676516049610418, "dur":53506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049663932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049663943, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049666710, "dur":40008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049706729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049706741, "dur":11629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049718400, "dur":187116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049905522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049905530, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049908251, "dur":45821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516049954108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516049954114, "dur":85917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050040055, "dur":46580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050086643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050086655, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050087736, "dur":24906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050112647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050112654, "dur":23106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050135788, "dur":47354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050183151, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050183161, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050184246, "dur":90999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050275251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050275261, "dur":27659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050302939, "dur":58830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050361772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050361777, "dur":70695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050432491, "dur":126462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050558960, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050558983, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050560755, "dur":107258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050668022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050668035, "dur":35772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050703831, "dur":237173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050941010, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050941026, "dur":14690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676516050955739, "dur":13002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676516050968755, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676516050968775, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676516050969811, "dur":226618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049413356, "dur":426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049413782, "dur":4433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049418223, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676516049418453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049599999, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676516049603307, "dur":71513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049674826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049674837, "dur":9182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049684045, "dur":90586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049774636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049774674, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049775853, "dur":27180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049803040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049803050, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049804343, "dur":49900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049854247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049854256, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049855308, "dur":29751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049885071, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049885086, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049887630, "dur":60382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516049948021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516049948033, "dur":80920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050028977, "dur":103392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050132375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516050132382, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050135575, "dur":58042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050193629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516050193639, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050195379, "dur":216598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050411981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516050411994, "dur":21138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050433152, "dur":306739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050739898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516050739907, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050744524, "dur":154797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050899330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516050899342, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516050901490, "dur":164996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516051066494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676516051066505, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676516051068172, "dur":128264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049413424, "dur":376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049413801, "dur":4437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049418241, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676516049418477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049563339, "dur":60047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676516049623474, "dur":145414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516049768895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049768907, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516049771825, "dur":138202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516049910034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049910044, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516049917723, "dur":37936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516049955664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516049955672, "dur":73908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050029608, "dur":28135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050057749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050057852, "dur":11813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050069687, "dur":34553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050104246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050104255, "dur":31048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050135329, "dur":53010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050188347, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050188363, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050190087, "dur":70537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050260631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050260662, "dur":41530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050302219, "dur":46110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050348333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050348340, "dur":98393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050446752, "dur":118220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050564979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050564989, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050568586, "dur":102857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050671449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050671458, "dur":33155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050704634, "dur":284139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516050988778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676516050988787, "dur":16782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676516051005589, "dur":190841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049413507, "dur":302, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049413809, "dur":4423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049418233, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049418443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049420193, "dur":3545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049423803, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049423992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049424055, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049425305, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049425692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049425700, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676516049429022, "dur":1841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676516049430871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049430879, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676516049434425, "dur":128587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049563017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049563024, "dur":37728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049600771, "dur":78845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049679624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049679636, "dur":18600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049698257, "dur":90198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049788461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049788471, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049789468, "dur":63574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049853049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049853078, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049854627, "dur":32592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049887227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049887238, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049888334, "dur":67667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516049956004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516049956008, "dur":73834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050029863, "dur":45299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050075168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050075178, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050081588, "dur":34157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050115749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050115757, "dur":26918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050142737, "dur":33437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050176182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050176194, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050177430, "dur":100723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050278158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050278165, "dur":27472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050305664, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050306791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050306803, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050307961, "dur":34164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050342135, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050342196, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050344410, "dur":57218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050401633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050401641, "dur":30915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050432617, "dur":146326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050578949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050578958, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050580062, "dur":56519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050636588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050636599, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050637632, "dur":44930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050682604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050682615, "dur":22456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050705091, "dur":267622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516050972719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676516050972729, "dur":31831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676516051004584, "dur":191844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049413550, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049413870, "dur":4384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049418254, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1676516049418371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049420382, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1676516049423181, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676516049423384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049423392, "dur":13601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676516049437134, "dur":125590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049562735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049562753, "dur":38563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049601344, "dur":80509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049681863, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049681879, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049683104, "dur":43125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049726235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049726245, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049727203, "dur":188827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049916038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049916049, "dur":8929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049924998, "dur":28220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516049953225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516049953232, "dur":76446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050029700, "dur":27104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050056811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050056822, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050058189, "dur":36415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050094615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050094627, "dur":40978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050135624, "dur":145881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050281511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050281518, "dur":24449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050305987, "dur":5515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050311509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050311559, "dur":12190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050323769, "dur":1090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050324865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050324875, "dur":3807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050328764, "dur":41419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050370188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050370195, "dur":62281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050432491, "dur":67679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050500176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050500187, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050501605, "dur":211914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050713523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050713533, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050717551, "dur":183014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050900574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516050900587, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516050902880, "dur":189583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516051092536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676516051092545, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676516051093684, "dur":102748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049413644, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049413878, "dur":4357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049418238, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1676516049418326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049419860, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1676516049423294, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676516049423370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049423378, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676516049424848, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676516049425023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049425029, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676516049427842, "dur":135128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049562974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049562982, "dur":71452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049634512, "dur":54772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049689289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049689298, "dur":26186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049715510, "dur":42673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049758191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049758203, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049759752, "dur":51155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049810914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049810923, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049812122, "dur":41534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049853662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049853672, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049855000, "dur":48861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049903869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049905478, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049907174, "dur":56132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516049963312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516049963320, "dur":66643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050029985, "dur":34225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050064219, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050064234, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050065577, "dur":124964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050190546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050190557, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050193474, "dur":76254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050269735, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050269752, "dur":32608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050302388, "dur":1812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050304212, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050304227, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050308622, "dur":1881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050310513, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050310527, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050311732, "dur":36282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050348023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050348035, "dur":115305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050463364, "dur":130118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050593490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050593501, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050594996, "dur":116348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050711353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050711400, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050712918, "dur":56794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050769719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050769729, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050771038, "dur":58161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050829206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516050829215, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516050830262, "dur":347275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Version one/Level 1 Train/Escape room scene_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516051177543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676516051177552, "dur":18801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Version one/Level 1 Train/Escape room scene_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676516051196378, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1676516051196382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676516051199346, "dur":2931, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676516051233292, "dur": 588, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676516051233004, "dur": 895, "ph": "X", "name": "Write chrome-trace events", "args": {} },
