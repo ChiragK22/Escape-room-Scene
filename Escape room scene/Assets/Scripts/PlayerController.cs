@@ -41,7 +41,8 @@ public class PlayerController : MonoBehaviour
         {
             escapeObstacleCount += 1;
             Debug.Log("EscapeObstacle");
-            collision.gameObject.SetActive(false);    
+            //collision.gameObject.SetActive(false);
+            Destroy(collision.gameObject);
         }
         if(collision.gameObject.tag == "DoorOpenEvent" && escapeObstacleCount == 5)
         {

@@ -10,13 +10,14 @@ public class moveableObjects : MonoBehaviour
     {
         Rigidbody rb = hit.collider.attachedRigidbody;
 
-        if(rb != null)
+        if(rb != null && hit.collider.gameObject.tag != "EscapeObstacle" )
         {
             Vector3 forceDirection = hit.gameObject.transform.position - transform.position;
             forceDirection.y = 0;
             forceDirection.Normalize();
-
             rb.AddForceAtPosition(forceDirection * pushForce, transform.position, ForceMode.Impulse);
         }
     }
+
+    
 }
