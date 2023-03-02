@@ -105,6 +105,8 @@
     <Compile Include="Assets\Scripts\moveableObjects.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\Scripts\CollectionArea.cs" />
+    <Compile Include="Assets\Scripts\MouseReset.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

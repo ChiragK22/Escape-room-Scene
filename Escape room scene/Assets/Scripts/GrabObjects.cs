@@ -9,6 +9,7 @@ public class GrabObjects : MonoBehaviour
     [SerializeField] private LayerMask pickupMask;
 
     private GrabableObject grabable;
+    public float pickupDistance = 15f;
 
     private void Update()
     {
@@ -16,7 +17,6 @@ public class GrabObjects : MonoBehaviour
         {
             if(grabable == null) 
             { 
-                float pickupDistance = 15f;
                 if(Physics.Raycast(playerCameraTranform.position, playerCameraTranform.forward, out RaycastHit hit, pickupDistance, pickupMask))
                 {
                     if (hit.transform.TryGetComponent(out grabable))

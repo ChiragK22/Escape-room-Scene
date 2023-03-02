@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public GameObject endGame;
   //  public GameObject info;
     public GameObject warningUI;
+
     private void Start()
     {
         escapeObstacleCount = 0;
@@ -24,6 +25,10 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         textCounter.text = "Score: " + escapeObstacleCount.ToString();
+        textCounter.text = "Score: " + CollectionArea.instance.countPoints.ToString();
+        
+        Debug.Log(escapeObstacleCount);
+
         if (_openTheDoor == true)
         {
             DoorOpen();
@@ -49,7 +54,16 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Count 5");
             _openTheDoor = true;
         }
+        else if(collision.gameObject.tag == "DoorOpenEvent" && CollectionArea.instance.countPoints == 5)
+        {
+            _openTheDoor = true;
+        }
         else if(collision.gameObject.tag == "DoorOpenEvent" && escapeObstacleCount != 5)
+        {
+            warningUI.gameObject.SetActive(true);
+            StartCoroutine(OpenWaringUI());
+        }
+        else if (collision.gameObject.tag == "DoorOpenEvent" && CollectionArea.instance.countPoints != 5)
         {
             warningUI.gameObject.SetActive(true);
             StartCoroutine(OpenWaringUI());
@@ -70,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator EndGameUI()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         endGame.gameObject.SetActive(true);
     }
 }

@@ -55,6 +55,10 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(movement * moveSpeed * Time.deltaTime);
 
+        /*float mouse = Input.GetAxis("Mouse Y");
+        float sensitivity = 0.5f;
+        transform.Rotate(new Vector3(-mouse * sensitivity, 0, 0));*/
+
     }
 
 }
