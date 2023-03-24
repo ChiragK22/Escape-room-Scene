@@ -8,10 +8,13 @@ public class PlayerController : MonoBehaviour
     public int escapeObstacleCount;
     public GameObject door;
     bool _openTheDoor;
+    public TextMeshProUGUI textCounterLevel1;
     public TextMeshProUGUI textCounter;
     public GameObject endGame;
   //  public GameObject info;
     public GameObject warningUI;
+    public GameObject ButtonUI;
+    public GameObject T_ButtonUI;
 
     private void Start()
     {
@@ -24,20 +27,24 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        textCounter.text = "Score: " + escapeObstacleCount.ToString();
+        textCounterLevel1.text = "Score: " + escapeObstacleCount.ToString();
         textCounter.text = "Score: " + CollectionArea.instance.countPoints.ToString();
         
-        Debug.Log(escapeObstacleCount);
 
         if (_openTheDoor == true)
         {
             DoorOpen();
         }
 
-       /* if (Input.GetKeyUp(KeyCode.Tab))
+        /* if (Input.GetKeyUp(KeyCode.Tab))
+         {
+             info.gameObject.SetActive(!info.gameObject.activeSelf);
+         }*/
+        if (Input.GetKeyUp(KeyCode.Alpha1))
         {
-            info.gameObject.SetActive(!info.gameObject.activeSelf);
-        }*/
+            ButtonUI.gameObject.SetActive(!ButtonUI.gameObject.activeSelf);
+            T_ButtonUI.gameObject.SetActive(!ButtonUI.gameObject.activeSelf);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

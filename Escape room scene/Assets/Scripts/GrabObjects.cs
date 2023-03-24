@@ -15,9 +15,9 @@ public class GrabObjects : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if(grabable == null) 
-            { 
-                if(Physics.Raycast(playerCameraTranform.position, playerCameraTranform.forward, out RaycastHit hit, pickupDistance, pickupMask))
+            if (grabable == null)
+            {
+                if (Physics.Raycast(playerCameraTranform.position, playerCameraTranform.forward, out RaycastHit hit, pickupDistance, pickupMask))
                 {
                     if (hit.transform.TryGetComponent(out grabable))
                     {
@@ -31,6 +31,13 @@ public class GrabObjects : MonoBehaviour
                 grabable = null;
             }
         }
+        if (Input.GetKey(KeyCode.Y))
+        {
+            grabable.RotateObjectsH();
+        }
+        if (Input.GetKey(KeyCode.T))
+        {
+            grabable.RotateObjectsV();
+        }
     }
-
 }

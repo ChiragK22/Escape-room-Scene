@@ -5,10 +5,13 @@ ScriptsOnlyBuild:
     - GrabableObject
     - PlayerController
     - PlayerMovement
+    - moveableObjects
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -54,7 +57,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Level 1 Test.unity:
+    Assets/Scenes/Level 1/Level 1 Train.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -100,28 +103,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5302}
     - Class: 114
-      Script: {instanceID: 6280}
+      Script: {instanceID: 6282}
     - Class: 114
-      Script: {instanceID: 7044}
+      Script: {instanceID: 7046}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 7692}
+      Script: {instanceID: 7696}
     - Class: 114
-      Script: {instanceID: 8082}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 9914}
+      Script: {instanceID: 9468}
     - Class: 114
-      Script: {instanceID: 74408}
+      Script: {instanceID: 9920}
+    - Class: 114
+      Script: {instanceID: 10092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -480,6 +483,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6b99ea8feac2ef5f63c613783ba4380c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseReset
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1184,6 +1193,12 @@ ScriptsOnlyBuild:
     className: CinemachineSameAsFollowTarget
   - hash:
       serializedVersion: 2
+      Hash: 4af552f2ff4b0dbbbe3622d73b1c939d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollectionArea
+  - hash:
+      serializedVersion: 2
       Hash: 4678e37e5f25172d96da84b348025ce2
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1556,6 +1571,12 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GrabableObject
+  - hash:
+      serializedVersion: 2
       Hash: 72763ba72b43403ee09a4c54b07cb346
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.XR
@@ -1604,7 +1625,7 @@ ScriptsOnlyBuild:
     className: CinemachineBasicMultiChannelPerlin
   - hash:
       serializedVersion: 2
-      Hash: 3f602e25b391b88d9c469b4a715fc7d2
+      Hash: eaa2448247eff751eb247c608a000181
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GrabObjects
@@ -1652,6 +1673,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71f6ea999720d2a678adba27b3cf30b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moveableObjects
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1668,20 +1695,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71f6ea999720d2a678adba27b3cf30b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: moveableObjects
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GrabableObject
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Level 1 Test.unity
-  playerPath: E:/Unity/Escape Room/Escape-room-Scene/Escape room scene/Build/Version
-    one/Level 1 Train/Escape room scene.exe
+  - Assets/Scenes/Level 1/Level 1 Train.unity
+  playerPath: E:/Unity/Escape Room/Escape-room-Scene/Escape room scene/Level 1 Train/Escape
+    room scene.exe

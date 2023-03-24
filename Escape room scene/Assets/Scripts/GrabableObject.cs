@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class GrabableObject : MonoBehaviour
 {
-    private Rigidbody objectRigidbody;
+    public Rigidbody objectRigidbody;
     private Transform objectGrabPointTransform;
+    float rotateSpeed = 100f;
 
     private void Awake()
     {
@@ -15,12 +16,29 @@ public class GrabableObject : MonoBehaviour
     {
         this.objectGrabPointTransform = objectGrabPointTransform;
         objectRigidbody.useGravity = false;
+        objectRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
     }
 
+    public void RotateObjectsH()
+    {
+        if(objectRigidbody.tag == "Points")
+        {
+            objectRigidbody.transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
+        }
+    }
+
+    public void RotateObjectsV()
+    {
+        if (objectRigidbody.tag == "Points")
+        {
+            objectRigidbody.transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
+        }
+    }
     public void Drop()
     {
         this.objectGrabPointTransform = null;
         objectRigidbody.useGravity = true;
+        objectRigidbody.constraints = RigidbodyConstraints.None;
 
     }
 

@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity; 
     private bool isGrounded; 
     public float rotateSpeed;
-
+    private GrabableObject grabable;
 
     public Transform groundCheck;
     public float groundCheckDistance = 0.4f;
@@ -41,8 +41,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Move();
-    }
 
+        /*if (Input.GetKeyDown(KeyCode.G))
+        {
+            rotateObjects();
+        }*/
+    }
+   /* public void rotateObjects() 
+    {
+        Debug.Log(grabable.objectRigidbody.tag);
+
+    }*/
     public void Move()
     {
         float horizontal = Input.GetAxis("Horizontal");
