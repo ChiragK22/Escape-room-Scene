@@ -39,5 +39,20 @@ public class GrabObjects : MonoBehaviour
         {
             grabable.RotateObjectsV();
         }
+
+       
+       if(PrefabsLoader.instance.inGameCubeClicked == true)
+        {
+            Debug.Log("If this is true load the Method");
+            grabable.ObjectLoader();
+            PrefabsLoader.instance.inGameCubeClicked = false;
+        }
+
+        /*if (PrefabsLoader.instance.colorClicked == true)
+        {
+            PrefabsLoader.instance.colorClicked = false;
+            Debug.Log("If this is true change the color");
+            grabable.ColorChange();
+        }*/
     }
 }

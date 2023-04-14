@@ -34,12 +34,27 @@ public class GrabableObject : MonoBehaviour
             objectRigidbody.transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
         }
     }
+
+    public void ObjectLoader()
+    {
+        Debug.Log("ObjectLoader");
+        if(objectRigidbody != null)
+        {
+            Destroy(objectRigidbody.gameObject);
+        }
+        Instantiate(PrefabsLoader.instance.prefabs[PrefabsLoader.instance.prefabNum], objectGrabPointTransform.position, Quaternion.Euler(PrefabsLoader.instance.spawnRotation));
+        Debug.Log("This gives number of object that should be load" + PrefabsLoader.instance.prefabNum);
+    }
+
+    public void ColorChange()
+    {
+        PrefabsLoader.instance.changeColor();
+    }
     public void Drop()
     {
         this.objectGrabPointTransform = null;
         objectRigidbody.useGravity = true;
         objectRigidbody.constraints = RigidbodyConstraints.None;
-
     }
 
     private void FixedUpdate()

@@ -404,6 +404,7 @@
 "Assets/Scripts/moveableObjects.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/PrefabsLoader.cs"
 "Assets/Scripts/UIManger.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
