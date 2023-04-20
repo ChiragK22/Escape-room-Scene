@@ -2,15 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GrabableObject : MonoBehaviour
 {
     public Rigidbody objectRigidbody;
     private Transform objectGrabPointTransform;
     float rotateSpeed = 100f;
+    public bool isRigidbodyEnabled = true;
+
+    public PhysicMaterial ballMaterial;
+    public PhysicMaterial defaultMaterial;
+    public PhysicMaterial boxMaterial;
+
+    private Collider collider;
+    public bool isMaterialEnabled = false;
+    bool changeBox = false;
+    bool changeSphere = false;
 
     private void Awake()
     {
         objectRigidbody = GetComponent<Rigidbody>();
+        isRigidbodyEnabled = true;
+        isMaterialEnabled = false;
+        changeBox = false;
+        changeSphere = false;
+        collider = gameObject.GetComponent<Collider>();
     }
     public void Grab(Transform objectGrabPointTransform)
     {
@@ -34,7 +50,53 @@ public class GrabableObject : MonoBehaviour
             objectRigidbody.transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
         }
     }
-
+    public void removePM()
+    {
+            if(collider is BoxCollider boxCollider)
+            {
+                changeBox = !changeBox;
+                Debug.Log(changeBox);
+                if(boxCollider.material = boxMaterial)
+                {
+                    if (changeBox == true)
+                    {
+                        boxCollider.material = defaultMaterial;
+                        Debug.Log("Check the Material is null condition = " + boxCollider.material);
+                    }
+                }    
+                else if (boxCollider.material = defaultMaterial)
+                {
+                    if (changeBox == false)
+                    {
+                        boxCollider.material = boxMaterial;
+                        Debug.Log("Check the Material is null condition = " + boxCollider.material);
+                    }
+                }
+                Debug.Log("Check the Material = " + boxCollider.material);
+            }
+            else if (collider is SphereCollider SphereCollider)
+            {
+                changeSphere = !changeSphere;
+                Debug.Log(changeSphere);
+                if (SphereCollider.material = ballMaterial)
+                {
+                    if (changeSphere == true)
+                    {
+                        SphereCollider.material = defaultMaterial;
+                        Debug.Log("Check the Material is null condition = " + SphereCollider.material);
+                    }
+                }
+                else if (SphereCollider.material = defaultMaterial)
+                {
+                    if (changeSphere == false)
+                    {
+                        SphereCollider.material = ballMaterial;
+                        Debug.Log("Check the Material is null condition = " + SphereCollider.material);
+                    }
+                }
+                Debug.Log("Check the Material = " + SphereCollider.material);
+            }
+    }
     public void ObjectLoader()
     {
         Debug.Log("ObjectLoader");
@@ -49,6 +111,12 @@ public class GrabableObject : MonoBehaviour
     public void ColorChange()
     {
         PrefabsLoader.instance.changeColor();
+    }
+
+    public void changeRigidBody()
+    {
+        isRigidbodyEnabled = !isRigidbodyEnabled;
+        objectRigidbody.isKinematic = !isRigidbodyEnabled;
     }
     public void Drop()
     {

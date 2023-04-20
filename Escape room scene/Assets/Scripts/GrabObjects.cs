@@ -10,6 +10,8 @@ public class GrabObjects : MonoBehaviour
 
     private GrabableObject grabable;
     public float pickupDistance = 15f;
+    public float moveSpeed;
+    public float moveLimit;
 
     private void Update()
     {
@@ -31,6 +33,28 @@ public class GrabObjects : MonoBehaviour
                 grabable = null;
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            if (objectGrabPointTransform.position.y < moveLimit)
+            {
+                objectGrabPointTransform.position = new Vector3(objectGrabPointTransform.position.x, moveLimit, objectGrabPointTransform.position.z);
+            }
+            else
+            {
+                objectGrabPointTransform.position += Vector3.up * moveSpeed;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            objectGrabPointTransform.position -= Vector3.up * moveSpeed;
+            if (objectGrabPointTransform.position.y < moveLimit)
+            {
+                objectGrabPointTransform.position = new Vector3(objectGrabPointTransform.position.x, moveLimit, objectGrabPointTransform.position.z);
+            }
+        }
+
         if (Input.GetKey(KeyCode.Y))
         {
             grabable.RotateObjectsH();
@@ -39,13 +63,22 @@ public class GrabObjects : MonoBehaviour
         {
             grabable.RotateObjectsV();
         }
+        if (Input.GetKey(KeyCode.R))
+        {
+            // StartCoroutine(changeRB());
+            grabable.changeRigidBody();
+        }
 
-       
-       if(PrefabsLoader.instance.inGameCubeClicked == true)
+        if (PrefabsLoader.instance.inGameCubeClicked == true)
         {
             Debug.Log("If this is true load the Method");
             grabable.ObjectLoader();
             PrefabsLoader.instance.inGameCubeClicked = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            grabable.removePM();
         }
 
         /*if (PrefabsLoader.instance.colorClicked == true)
@@ -55,4 +88,9 @@ public class GrabObjects : MonoBehaviour
             grabable.ColorChange();
         }*/
     }
+    /*IEnumerator changeRB()
+        {
+            yield return new WaitForSeconds(0.5f);
+            grabable.changeRigidBody();
+        }*/
 }

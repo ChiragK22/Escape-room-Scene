@@ -128,3 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 13400000, guid: a11a723dc245bef449e2593ee236a07b, type: 2}
+  defaultMaterial: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  boxMaterial: {fileID: 13400000, guid: 709159f0034b228448056d2e9bae2d30, type: 2}
+  isMaterialEnabled: 0

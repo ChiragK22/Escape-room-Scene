@@ -42,10 +42,10 @@ public class MouseReset : MonoBehaviour
         // rotate camera based on mouse input
 
         // reset camera rotation to initial position
-        if (Input.GetKeyDown(KeyCode.R))
+       /* if (Input.GetKeyDown(KeyCode.R))
         {
             cam.transform.rotation = initialRotation;
-        }
+        }*/
 
         // reset mouse position to center of screen
        /* Cursor.lockState = CursorLockMode.Locked;
