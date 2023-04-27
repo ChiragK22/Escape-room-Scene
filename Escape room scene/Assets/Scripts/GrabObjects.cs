@@ -33,7 +33,11 @@ public class GrabObjects : MonoBehaviour
                 grabable = null;
             }
         }
-
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            grabable.destroyGameObject();
+            grabable = null;
+        }
         if (Input.GetKeyDown(KeyCode.Z))
         {
             if (objectGrabPointTransform.position.y < moveLimit)

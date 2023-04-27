@@ -19,6 +19,8 @@ public class GrabableObject : MonoBehaviour
     bool changeBox = false;
     bool changeSphere = false;
 
+    
+
     private void Awake()
     {
         objectRigidbody = GetComponent<Rigidbody>();
@@ -50,6 +52,7 @@ public class GrabableObject : MonoBehaviour
             objectRigidbody.transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
         }
     }
+
     public void removePM()
     {
             if(collider is BoxCollider boxCollider)
@@ -97,6 +100,16 @@ public class GrabableObject : MonoBehaviour
                 Debug.Log("Check the Material = " + SphereCollider.material);
             }
     }
+
+
+    private void MyCustomMethod(float scaleValue)
+    {
+        // This method gets called whenever the slider value changes
+        // Do something with the scale value here, like printing it to the console
+
+        objectRigidbody.transform.localScale = new Vector3(UIManger.instance.scaleValue, UIManger.instance.scaleValue, UIManger.instance.scaleValue);
+        Debug.Log("Current scale value: " + scaleValue);
+    }
     public void ObjectLoader()
     {
         Debug.Log("ObjectLoader");
@@ -124,7 +137,10 @@ public class GrabableObject : MonoBehaviour
         objectRigidbody.useGravity = true;
         objectRigidbody.constraints = RigidbodyConstraints.None;
     }
-
+    public void destroyGameObject()
+    {
+        Destroy(objectRigidbody.gameObject);
+    }
     private void FixedUpdate()
     {
         if(objectGrabPointTransform != null)
@@ -132,6 +148,7 @@ public class GrabableObject : MonoBehaviour
             float lerpSpeed = 10f;
             Vector3 newPositoin = Vector3.Lerp(transform.position, objectGrabPointTransform.position, Time.deltaTime * lerpSpeed);
             objectRigidbody.MovePosition(newPositoin);
+            MyCustomMethod(UIManger.instance.scaleValue);
         }
     }
 }

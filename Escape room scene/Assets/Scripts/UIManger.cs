@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManger : MonoBehaviour
 {
@@ -12,9 +13,27 @@ public class UIManger : MonoBehaviour
     public GameObject ObjectGeneration;
     public GameObject ColorPanel;
     public GameObject NumberPanel;
+    public GameObject AskPanel;
     bool isMenuOpen;
     bool isLevelOpen;
     public string levelName;
+
+    public float minScale = 0.5f;
+    public float maxScale = 2f;
+    public Slider slider;
+    public TextMeshProUGUI textSizeNumber;
+    public float scaleValue;
+
+    public static UIManger instance;
+
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
 
     private void Start()
     {
@@ -30,13 +49,19 @@ public class UIManger : MonoBehaviour
         {
             ColorPanel.SetActive(false);
         }
-        if (ColorPanel != null)
+        if (NumberPanel != null)
         {
             NumberPanel.SetActive(false);
         }
+        if (AskPanel != null)
+        {
+            AskPanel.SetActive(false);
+        }
         isMenuOpen = false;
         isLevelOpen = false;
+        slider.value = 0.5f;
     }
+
 
     public void OnUiButtonClick(Button clickedButton)
     {
@@ -75,7 +100,12 @@ public class UIManger : MonoBehaviour
         }
         else if(levelName == "Generate")
         {
+            AskPanel.SetActive(!AskPanel.gameObject.activeSelf);
+        }
+        else if (levelName == "AskSpearate")
+        {
             ObjectGeneration.SetActive(!ObjectGeneration.gameObject.activeSelf);
+            AskPanel.SetActive(false);
         }
         else if (levelName == "0" || levelName == "1" || levelName == "2" || levelName == "3" || levelName == "4" || levelName == "5" || levelName == "6"
             || levelName == "7" || levelName == "8" || levelName == "9" || levelName == "10" || levelName == "11")
@@ -102,6 +132,11 @@ public class UIManger : MonoBehaviour
 
     private void Update()
     {
+
+        scaleValue = Mathf.Lerp(minScale, maxScale, slider.value);
+        Debug.Log(scaleValue);
+        textSizeNumber.text = "Size of object: " + scaleValue.ToString();
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             InGameUI.SetActive(!InGameUI.gameObject.activeSelf);

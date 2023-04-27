@@ -28,6 +28,7 @@ public class PrefabsLoader : MonoBehaviour
     public bool inGameCubeClicked;
     public bool colorClicked;
     public bool numberClicked;
+    public bool onlyOnePrefabClicked;
 
     public Material[] materials;
     public Renderer renderers;
@@ -115,6 +116,7 @@ public class PrefabsLoader : MonoBehaviour
 
         prefabNumberFieldNum = int.Parse(prefabNumberName);
         prefabsGenNum = prefabNumberFieldNum;
+        Debug.Log(prefabsGenNum + "HOW?");
         numberClicked = !numberClicked;
     }
     public void PrefabGetter()
@@ -124,6 +126,45 @@ public class PrefabsLoader : MonoBehaviour
     public void changeColor()
     {
         renderers.material = materials[prefabColorNum];
+    }
+
+    public void onePrefabLoader()
+    {
+        changeColor();
+        for (int i = 0; i < prefabsGenNum; i++)
+        {
+            // Calculate the index of the prefab and position based on the loop counter
+            int prefabIndex = i % prefabs.Length;
+            int positionIndex = i % positions.Length;
+
+            // Instantiate the prefab at the position
+            Instantiate(prefabs[prefabObjectNum], positions[positionIndex].position, Quaternion.Euler(spawnRotation));
+        }
+    }
+
+    public void QuitGameUI(string quiteTheGame)
+    {
+        if (quiteTheGame == "Yes")
+        {
+            onlyOnePrefabClicked = true;
+        }
+        else if (quiteTheGame == "No")
+        {
+            onlyOnePrefabClicked = false;
+        }
+    }
+
+
+    public void loadPrefab()
+    {
+        if (onlyOnePrefabClicked == true)
+        {
+            PrefabLoader();
+        }
+        else
+        {
+            onePrefabLoader();
+        }
     }
     public void PrefabLoader()
     {

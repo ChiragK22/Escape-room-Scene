@@ -1280,6 +1280,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!1 &328068349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1334,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!54 &328068352
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3261,6 +3271,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!65 &1194642769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3460,6 +3475,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 119
   pickupDistance: 15
+  moveSpeed: 0
+  moveLimit: 0
 --- !u!54 &1309286456
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3488,7 +3505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9efc9a849b9ed4c8151a8f5a978752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 0
+  pushForce: 0.5
 --- !u!114 &1309286458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5382,6 +5399,10 @@ PrefabInstance:
     - target: {fileID: 8770366105323823225, guid: a873a1fee5e117b429864251e092d197, type: 3}
       propertyPath: m_Name
       value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770366105323823225, guid: a873a1fee5e117b429864251e092d197, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8770366105323823226, guid: a873a1fee5e117b429864251e092d197, type: 3}
       propertyPath: m_RootOrder
