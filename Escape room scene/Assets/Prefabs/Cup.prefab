@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8427778689639033371}
   - component: {fileID: 8427778689639033369}
   - component: {fileID: 8427778689639033370}
+  - component: {fileID: -2814958795903005581}
   m_Layer: 0
   m_Name: Cup
   m_TagString: Untagged
@@ -115,3 +116,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8857121676212383311, guid: 1f66b32fa49a2074398c0f85bb42a6f3, type: 3}
+--- !u!114 &-2814958795903005581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414184977228836237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee97c77821518b449a471fbbaf156a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 13400000, guid: a11a723dc245bef449e2593ee236a07b, type: 2}
+  defaultMaterial: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  boxMaterial: {fileID: 13400000, guid: 709159f0034b228448056d2e9bae2d30, type: 2}
+  isMaterialEnabled: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1659160843683660827}
   - component: {fileID: 56031520083018699}
   - component: {fileID: 56031520083018698}
+  - component: {fileID: -6281829525457471213}
   m_Layer: 0
   m_Name: Bowl
   m_TagString: Untagged
@@ -115,3 +116,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 477525350536967170, guid: 86231892280af7f448d30f336991758d, type: 3}
+--- !u!114 &-6281829525457471213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866513633934255566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee97c77821518b449a471fbbaf156a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 13400000, guid: a11a723dc245bef449e2593ee236a07b, type: 2}
+  defaultMaterial: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  boxMaterial: {fileID: 13400000, guid: 709159f0034b228448056d2e9bae2d30, type: 2}
+  isMaterialEnabled: 0

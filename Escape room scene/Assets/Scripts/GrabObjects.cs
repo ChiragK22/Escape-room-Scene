@@ -33,7 +33,7 @@ public class GrabObjects : MonoBehaviour
                 grabable = null;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Delete))
+        if (Input.GetKeyDown(KeyCode.Backspace))
         {
             grabable.destroyGameObject();
             grabable = null;
