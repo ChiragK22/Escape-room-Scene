@@ -25,4 +25,16 @@ This repo contains different levels of escape room.
 
 - **Y**: Rotates objects on the Y axis.
 
-- **R**: Resets the camera to its default position if it is not in the correct position.
+- **R**: Resets the rigid body of the object.
+
+- **Z**: Move the reference point of the grab object upwards.
+
+- **X**: Move the reference point of the grab object downward.
+
+- **C**: Open in-game ui for add and resize single object.
+
+- **G**: Remove/Add physical material. 
+
+- **Backspace**: Remove object from scene. 
+
+- - - -
