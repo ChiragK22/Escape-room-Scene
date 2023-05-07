@@ -18,11 +18,12 @@ public class UIManger : MonoBehaviour
     bool isLevelOpen;
     public string levelName;
 
-    public float minScale = 0.5f;
-    public float maxScale = 2f;
+    public float minScale = 1f;
+    public float maxScale = 100f;
     public Slider slider;
     public TextMeshProUGUI textSizeNumber;
     public float scaleValue;
+    public float defaultValue;
 
     public static UIManger instance;
 
@@ -37,6 +38,7 @@ public class UIManger : MonoBehaviour
 
     private void Start()
     {
+
         if (InGameUI != null)
         {
             InGameUI.SetActive(false);
@@ -59,9 +61,7 @@ public class UIManger : MonoBehaviour
         }
         isMenuOpen = false;
         isLevelOpen = false;
-        slider.value = 0.5f;
     }
-
 
     public void OnUiButtonClick(Button clickedButton)
     {
@@ -130,11 +130,23 @@ public class UIManger : MonoBehaviour
         ObjectGeneration.SetActive(false);
     }
 
+
     private void Update()
     {
+        if (GrabObjects.instance.isSelected == true && scaleValue != GrabObjects.instance.localScale.x)
+        {
+            defaultValue = GrabObjects.instance.localScale.x;
+            //slider = 0 means local scale 1 and if slider 1 means scale 2 
+            // 1
+            slider.value = (defaultValue - 1f) / (maxScale - minScale);
+            scaleValue = Mathf.Lerp(minScale, maxScale, slider.value);
+            GrabObjects.instance.isSelected = false;
+        }
+        else
+        {
+            scaleValue = Mathf.Lerp(minScale, maxScale, slider.value);
+        }
 
-        scaleValue = Mathf.Lerp(minScale, maxScale, slider.value);
-        Debug.Log(scaleValue);
         textSizeNumber.text = "Size of object: " + scaleValue.ToString();
 
         if (Input.GetKeyDown(KeyCode.C))
@@ -143,12 +155,12 @@ public class UIManger : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(isMenuOpen == false)
+            if (isMenuOpen == false)
             {
-            LeanTween.moveX(MenuUI, 0, 1f);
-            isMenuOpen = !isMenuOpen;
+                LeanTween.moveX(MenuUI, 0, 1f);
+                isMenuOpen = !isMenuOpen;
             }
-            else if(isMenuOpen == true)
+            else if (isMenuOpen == true)
             {
                 LeanTween.moveX(MenuUI, -200, 1f);
                 isMenuOpen = !isMenuOpen;

@@ -13,6 +13,22 @@ public class GrabObjects : MonoBehaviour
     public float moveSpeed;
     public float moveLimit;
 
+    public static GrabObjects instance;
+
+    public Vector3 localScale;
+    public bool isSelected;
+
+    
+
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -24,12 +40,23 @@ public class GrabObjects : MonoBehaviour
                     if (hit.transform.TryGetComponent(out grabable))
                     {
                         grabable.Grab(objectGrabPointTransform);
+                        localScale = grabable.objectRigidbody.gameObject.transform.localScale;
+                        Debug.Log(localScale + " = LocalScale");;
+                        isSelected = true;
+                        //StartCoroutine(resetTheSelect());
                     }
+                    /*IEnumerator resetTheSelect()
+                    {
+                        yield return new WaitForSeconds(0.2f);
+                        isSelected = false;
+                    }*/
                 }
             }
             else
             {
                 grabable.Drop();
+
+                isSelected = false;
                 grabable = null;
             }
         }

@@ -10,7 +10,7 @@ public class moveableObjects : MonoBehaviour
     {
         Rigidbody rb = hit.collider.attachedRigidbody;
 
-        if(rb != null && hit.collider.gameObject.tag != "EscapeObstacle")
+        if (rb != null && hit.collider.gameObject.tag != "EscapeObstacle" && hit.collider.gameObject.tag != "Points")
         {
             Vector3 forceDirection = hit.gameObject.transform.position - transform.position;
             forceDirection.y = 0;
@@ -19,5 +19,6 @@ public class moveableObjects : MonoBehaviour
         }
     }
 
-    
+
+
 }

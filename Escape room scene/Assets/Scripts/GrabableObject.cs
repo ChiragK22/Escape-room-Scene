@@ -18,11 +18,11 @@ public class GrabableObject : MonoBehaviour
     public bool isMaterialEnabled = false;
     bool changeBox = false;
     bool changeSphere = false;
-
-    
+    float scaleSlider;
 
     private void Awake()
     {
+        
         objectRigidbody = GetComponent<Rigidbody>();
         isRigidbodyEnabled = true;
         isMaterialEnabled = false;
@@ -30,6 +30,8 @@ public class GrabableObject : MonoBehaviour
         changeSphere = false;
         collider = gameObject.GetComponent<Collider>();
     }
+
+   
     public void Grab(Transform objectGrabPointTransform)
     {
         this.objectGrabPointTransform = objectGrabPointTransform;
@@ -102,14 +104,16 @@ public class GrabableObject : MonoBehaviour
     }
 
 
-    private void MyCustomMethod(float scaleValue)
+    /*public void MyCustomMethod(float scaleValue)
     {
-        // This method gets called whenever the slider value changes
-        // Do something with the scale value here, like printing it to the console
+        objectRigidbody.transform.localScale = new Vector3(scaleValue, scaleValue, scaleValue);
+    }*/
 
-        objectRigidbody.transform.localScale = new Vector3(UIManger.instance.scaleValue, UIManger.instance.scaleValue, UIManger.instance.scaleValue);
-        Debug.Log("Current scale value: " + scaleValue);
+    public void SetScale(float scaleValue)
+    {
+        objectRigidbody.transform.localScale = new Vector3(scaleValue, scaleValue, scaleValue);
     }
+
     public void ObjectLoader()
     {
         Debug.Log("ObjectLoader");
@@ -141,6 +145,35 @@ public class GrabableObject : MonoBehaviour
     {
         Destroy(objectRigidbody.gameObject);
     }
+
+
+    /*public void SetScaleSlider()
+    {
+        if (GrabObjects.instance.isSelected == true)
+        {
+            SetScale(GrabObjects.instance.localScale.x);
+        }
+        else
+        {
+            SetScale(UIManger.instance.scaleValue);
+        }
+    }*/
+
+    void GetSlider()
+    {
+        if(GrabObjects.instance.isSelected == true)
+        {
+            SetScale(UIManger.instance.defaultValue);
+            GrabObjects.instance.isSelected = false;
+            Debug.Log(UIManger.instance.defaultValue + "= Assign to DScale");
+        }
+        else
+        {
+            SetScale(UIManger.instance.scaleValue);
+            Debug.Log(UIManger.instance.scaleValue + "= Assign to SScale");
+        }
+    }
+
     private void FixedUpdate()
     {
         if(objectGrabPointTransform != null)
@@ -148,7 +181,12 @@ public class GrabableObject : MonoBehaviour
             float lerpSpeed = 10f;
             Vector3 newPositoin = Vector3.Lerp(transform.position, objectGrabPointTransform.position, Time.deltaTime * lerpSpeed);
             objectRigidbody.MovePosition(newPositoin);
-            MyCustomMethod(UIManger.instance.scaleValue);
+
+            //SetScaleSlider();
+            //GetSlider();
+            SetScale(UIManger.instance.scaleValue);
         }
+
+       
     }
 }

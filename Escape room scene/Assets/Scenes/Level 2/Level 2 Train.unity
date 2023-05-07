@@ -319,6 +319,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!65 &121570071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1128,6 +1133,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!1 &367139135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &486165226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,6 +1371,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!65 &490277061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3942,6 +3957,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!65 &1177557996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4225,6 +4245,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 119
   pickupDistance: 15
+  moveSpeed: 0
+  moveLimit: 0
+  localScale: {x: 0, y: 0, z: 0}
+  isSelected: 0
 --- !u!54 &1309286456
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5085,6 +5109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  boxMaterial: {fileID: 0}
+  isMaterialEnabled: 0
 --- !u!65 &1695476982
 BoxCollider:
   m_ObjectHideFlags: 0
