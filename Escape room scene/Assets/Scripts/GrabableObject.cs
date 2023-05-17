@@ -35,6 +35,7 @@ public class GrabableObject : MonoBehaviour
     public void Grab(Transform objectGrabPointTransform)
     {
         this.objectGrabPointTransform = objectGrabPointTransform;
+       
         objectRigidbody.useGravity = false;
         objectRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
     }
