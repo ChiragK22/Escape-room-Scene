@@ -116,6 +116,7 @@ public class UIManger : MonoBehaviour
         else if(levelName == "Blue" || levelName == "Red" || levelName == "Green" || levelName == "Yellow" || levelName == "Grey")
         {
             NumberPanel.SetActive(!NumberPanel.gameObject.activeSelf);
+            Debug.Log("ColorPanel Closed");
             ColorPanel.SetActive(false);
         }
         else if(levelName == "Five" || levelName == "Ten" || levelName == "15")
