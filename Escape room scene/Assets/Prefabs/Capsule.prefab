@@ -11,10 +11,12 @@ GameObject:
   - component: {fileID: 2899906676081242115}
   - component: {fileID: 7725684320754058133}
   - component: {fileID: 5581421182711368315}
+  - component: {fileID: 3700953665454071307}
   - component: {fileID: 3141429143409959588}
-  m_Layer: 0
+  - component: {fileID: 1020612623}
+  m_Layer: 6
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Points
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,6 +86,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3700953665454071307
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058648717892206328}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 1
+  m_AngularDrag: 0.06
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!136 &3141429143409959588
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -98,3 +116,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1020612623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058648717892206328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee97c77821518b449a471fbbaf156a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRigidbody: {fileID: 0}
+  isRigidbodyEnabled: 1
+  ballMaterial: {fileID: 13400000, guid: a11a723dc245bef449e2593ee236a07b, type: 2}
+  defaultMaterial: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  boxMaterial: {fileID: 13400000, guid: 709159f0034b228448056d2e9bae2d30, type: 2}
+  isMaterialEnabled: 0

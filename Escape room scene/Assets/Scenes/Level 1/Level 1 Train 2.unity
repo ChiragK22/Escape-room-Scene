@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4430066, g: 0.49219602, b: 0.5719256, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300598, g: 0.492195, b: 0.5719238, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4242,11 +4242,12 @@ MonoBehaviour:
   NumberPanel: {fileID: 39213169}
   AskPanel: {fileID: 1440420319}
   levelName: 
-  minScale: 0.5
+  minScale: 1
   maxScale: 2
   slider: {fileID: 1962834297}
   textSizeNumber: {fileID: 91292427}
   scaleValue: 0
+  defaultValue: 0
 --- !u!1 &500433433
 GameObject:
   m_ObjectHideFlags: 0
@@ -11977,6 +11978,8 @@ MonoBehaviour:
   pickupDistance: 15
   moveSpeed: 0.1
   moveLimit: 0
+  localScale: {x: 0, y: 0, z: 0}
+  isSelected: 0
 --- !u!54 &1309286456
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12020,6 +12023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushForce: 1
+  pushForce1: 0
 --- !u!1 &1317444953
 GameObject:
   m_ObjectHideFlags: 0

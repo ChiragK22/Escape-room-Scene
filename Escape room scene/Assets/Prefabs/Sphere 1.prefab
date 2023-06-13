@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8770366105323823228}
   - component: {fileID: 8770366105323823227}
   - component: {fileID: 8770366105323823231}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sphere 1
   m_TagString: Points
   m_Icon: {fileID: 0}
@@ -107,9 +107,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8770366105323823225}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 1
-  m_AngularDrag: 0.05
+  m_Mass: 100
+  m_Drag: 3
+  m_AngularDrag: 0.06
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1

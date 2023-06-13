@@ -1,18 +1,22 @@
 ﻿<Properties StartupConfiguration="{8ADED3E6-3ED1-9660-E8CE-BF46C0B784CD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PrefabsLoader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIManger.cs">
     <Files>
+      <File FileName="Assets/Scripts/UIManger.cs" Line="69" Column="1" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PrefabsLoader.cs" Line="182" Column="1" />
+      <File FileName="Assets/Scripts/PrefabsLoader.cs" />
       <File FileName="Assets/Scripts/PlayerController.cs" />
       <File FileName="Assets/Scripts/MouseReset.cs" />
-      <File FileName="Assets/Scripts/moveableObjects.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/moveableObjects.cs" />
+      <File FileName="Assets/Scripts/GrabObjects.cs" Line="105" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Escape room scene" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UIManger.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -21,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f9dfd119-b81f-48e1-8048-3ee1cd1fce6d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7fcebfd4-b69c-4666-ae78-c19940355be4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
