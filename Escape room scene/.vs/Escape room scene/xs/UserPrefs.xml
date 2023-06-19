@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{8ADED3E6-3ED1-9660-E8CE-BF46C0B784CD}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PrefabsLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/UIManger.cs" Line="69" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="30" Column="9" />
+      <File FileName="Assets/Scripts/UIManger.cs" Line="148" Column="1" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/PrefabsLoader.cs" Line="175" Column="42" />
-      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PrefabsLoader.cs" Line="203" Column="1" />
       <File FileName="Assets/Scripts/MouseReset.cs" />
       <File FileName="Assets/Scripts/moveableObjects.cs" />
       <File FileName="Assets/Scripts/GrabObjects.cs" />
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2f869ded-9580-46c4-9886-28b6f9796774" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fd06bca3-1241-463b-b537-a555a6f82f25" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

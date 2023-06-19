@@ -192,6 +192,7 @@ public class PrefabsLoader : MonoBehaviour
         || prefabObjectNum == 8 || prefabObjectNum == 9 || prefabObjectNum == 10 || prefabObjectNum == 11)
         {
             GameObject[] pointObjects = GameObject.FindGameObjectsWithTag("Points");
+            Debug.Log(pointObjects[0] + "Points");
             foreach (GameObject pointObject in pointObjects)
             {
                 Destroy(pointObject);

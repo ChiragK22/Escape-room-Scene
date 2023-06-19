@@ -6326,7 +6326,7 @@ PrefabInstance:
       objectReference: {fileID: 1144657976}
     - target: {fileID: 6614737495803956486, guid: e6935214126955e45a695bc4266763d3, type: 3}
       propertyPath: m_VersionIndex
-      value: 1460
+      value: 1463
       objectReference: {fileID: 0}
     - target: {fileID: 7709083899932711351, guid: e6935214126955e45a695bc4266763d3, type: 3}
       propertyPath: m_Mesh
@@ -7549,7 +7549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &943423383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17458,7 +17458,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1666
+  m_Name: pb_Mesh-1680
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17954,6 +17954,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2000204703}
     m_Modifications:
+    - target: {fileID: 693930958700775670, guid: d5fbc400a74664f7abe709b7736c4632, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1187290461212915126, guid: d5fbc400a74664f7abe709b7736c4632, type: 3}
       propertyPath: m_Name
       value: Cone1
@@ -18012,7 +18016,7 @@ PrefabInstance:
       objectReference: {fileID: 2135257227}
     - target: {fileID: 6003223940712416902, guid: d5fbc400a74664f7abe709b7736c4632, type: 3}
       propertyPath: m_VersionIndex
-      value: 6701
+      value: 6704
       objectReference: {fileID: 0}
     - target: {fileID: 6292461372706390188, guid: d5fbc400a74664f7abe709b7736c4632, type: 3}
       propertyPath: m_Mesh
