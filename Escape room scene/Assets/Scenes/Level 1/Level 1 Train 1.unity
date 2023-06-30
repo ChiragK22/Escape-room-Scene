@@ -6928,13 +6928,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escapeObstacleCount: 0
-  door: {fileID: 0}
-  textCounterLevel1: {fileID: 0}
-  textCounter: {fileID: 0}
-  endGame: {fileID: 0}
-  warningUI: {fileID: 0}
-  ButtonUI: {fileID: 0}
-  T_ButtonUI: {fileID: 0}
+  door: {fileID: 1466838394}
+  textCounterLevel1: {fileID: 97021739}
+  textCounter: {fileID: 983633938}
+  endGame: {fileID: 73008088}
+  warningUI: {fileID: 641560418}
+  ButtonUI: {fileID: 2012984327}
+  T_ButtonUI: {fileID: 2055007944}
 --- !u!114 &850379102
 MonoBehaviour:
   m_ObjectHideFlags: 0

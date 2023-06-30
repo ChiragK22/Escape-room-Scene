@@ -8851,12 +8851,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escapeObstacleCount: 0
   door: {fileID: 1466838394}
-  textCounterLevel1: {fileID: 0}
-  textCounter: {fileID: 0}
-  endGame: {fileID: 0}
-  warningUI: {fileID: 0}
-  ButtonUI: {fileID: 0}
-  T_ButtonUI: {fileID: 0}
+  textCounterLevel1: {fileID: 2145036706}
+  textCounter: {fileID: 1063699625}
+  endGame: {fileID: 925085136}
+  warningUI: {fileID: 868151970}
+  ButtonUI: {fileID: 303461774}
+  T_ButtonUI: {fileID: 797004818}
 --- !u!114 &1125021866
 MonoBehaviour:
   m_ObjectHideFlags: 0

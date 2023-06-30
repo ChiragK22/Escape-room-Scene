@@ -15255,7 +15255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escapeObstacleCount: 0
-  door: {fileID: 0}
+  door: {fileID: 1466838394}
   textCounterLevel1: {fileID: 1656995549}
   textCounter: {fileID: 216030713}
   endGame: {fileID: 143063824}
